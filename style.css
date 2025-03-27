@@ -71,9 +71,12 @@ a:hover {
 }
 
 .discord-button:hover {
-  background-color: #ffffff;
-  color: #ff0000;
+  background-color: #ffffff !important;
+  color: #ff0000 !important;
   border-color: #ff0000;
+  text-decoration: none;
+  padding: 10px 20px; /*  */
 }
+
 
 

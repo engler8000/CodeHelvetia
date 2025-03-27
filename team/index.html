@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team – CodeHelvetia</title>
+  <link rel="stylesheet" href="/style.css" />
+  <style>
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .member {
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+
+    .member img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .sysadmin {
+      color: turquoise;
+      font-weight: bold;
+    }
+
+    .admin {
+      color: hotpink;
+      font-weight: bold;
+    }
+
+    .moderator {
+      color: yellow;
+      font-weight: bold;
+    }
+
+    .member p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Unser Team</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/team/">Team</a>
+      <a href="/contact/">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="team-grid">
+      <div class="member">
+        <img src="/images/teamengler8000.jpg" alt="Systemadmin">
+        <p class="sysadmin">Systemadministrator</p>
+        <p>Etienne Engler</p>
+        <p>Ingame: 匚卄engler8000</p>
+      </div>
+
+      <!-- bis zu 6 weitere Blöcke möglich -->
+    </div>
+  </main>
+</body>
+</html>

@@ -51,10 +51,11 @@ a {
 a:hover {
   color: #ffffff;
   background-color: #ff0000;
-  padding: 2px 4px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
+/* Ausnahme: Discord-Button */
 .discord-button {
   display: inline-block;
   background-color: #ff0000;
@@ -73,7 +74,6 @@ a:hover {
   background-color: #ffffff;
   color: #ff0000;
   border-color: #ff0000;
-  text-decoration: none;
 }
 
 

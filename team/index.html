@@ -7,12 +7,33 @@
   <link rel="stylesheet" href="/style.css" />
   <link rel="icon" href="/favicon.png" type="image/png" />
   <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     .team-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
       gap: 2rem;
       padding: 2rem;
       text-align: center;
+      align-items: stretch;
     }
 
     .member {
@@ -22,8 +43,11 @@
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
       max-width: 256px;
       margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
     }
-
 
     .member img {
       width: 100%;
@@ -32,10 +56,9 @@
       aspect-ratio: 1 / 1;
       object-fit: cover;
       border-radius: 8px;
-      margin: 0 auto;
+      margin: 0 auto 1rem;
       display: block;
-   }
-
+    }
 
     .sysadmin {
       color: #00ffff;
@@ -53,7 +76,16 @@
     }
 
     .member p {
-      margin: 5px 0;
+      margin-top: 6px;
+      margin-bottom: 0;
+    }
+
+    .member p:first-child {
+      margin-top: 0;
+    }
+
+    .member p:last-child {
+      margin-bottom: 0;
     }
   </style>
 </head>
@@ -61,14 +93,15 @@
   <header>
     <h1>CodeHelvetia</h1>
     <nav>
-  <a href="/">Home</a>
-  <a href="/team/">Team</a>
-  <a href="/impressum.html">Impressum</a>
+      <a href="/">Home</a>
+      <a href="/team/">Team</a>
+      <a href="/impressum.html">Impressum</a>
     </nav>
   </header>
 
   <main>
     <div class="team-grid">
+      <!-- Systemadministrator -->
       <div class="member">
         <img src="teamengler8000.jpg" alt="Systemadministrator">
         <p class="sysadmin">Systemadministrator</p>
@@ -76,16 +109,17 @@
         <p>Ingame: 匚卄engler8000</p>
       </div>
 
-    <div class="team-grid">
+      <!-- Moderator -->
       <div class="member">
         <img src="teamflorian_fa.jpg" alt="Moderator">
-        <p class="moderator">Systemadministrator</p>
+        <p class="moderator">Moderator</p>
         <p>Florian Fazlija</p>
         <p>Ingame: 匚卄Florian_Fa</p>
       </div>
 
-      <!-- Insgesamt 8 weitere Blöcke möglich -->
+      <!-- Weitere Mitglieder kannst du hier einfügen -->
     </div>
   </main>
 </body>
 </html>
+

@@ -17,7 +17,7 @@
 
     header {
       text-align: center;
-      padding: 2rem 1rem 1rem;
+      padding: 1rem;
     }
 
     nav a {
@@ -87,11 +87,32 @@
     .member p:last-child {
       margin-bottom: 0;
     }
+
+    h1 {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    #team-history {
+      padding: 2rem;
+    }
+
+    #team-history h2 {
+      text-align: center;
+    }
+
+    #team-history ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    #team-history li {
+      margin-bottom: 0.5rem;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>CodeHelvetia</h1>
     <nav>
       <a href="/">Home</a>
       <a href="/team/">Team</a>
@@ -100,6 +121,8 @@
   </header>
 
   <main>
+    <h1>CodeHelvetia</h1>
+
     <div class="team-grid">
       <!-- Systemadministrator -->
       <div class="member">
@@ -119,27 +142,21 @@
 
       <!-- Weitere Mitglieder kannst du hier einfügen -->
     </div>
-<!-- Teamverlauf -->
-<section id="team-history">
-  <h2>📜 Teamverlauf</h2>
-  <ul>
-    <!-- Neuester Eintrag zuerst -->
 
-    <!-- Beitritt Moderator -->
-    <li style="color: green;">
-      ✅ [03.04.2025] <span style="color: #ffffff;">Florian Fazlija</span> ist dem Team als 
-      <b style="color: #ffff00;">Moderator</b> beigetreten.
-    </li>
-
-    <!-- Beitritt Systemadministrator -->
-    <li style="color: green;">
-      ✅ [24.02.2025] <span style="color: #ffffff;">Etienne Engler</span> ist dem Team als 
-      <b style="color: #00ffff;">Systemadministrator</b> beigetreten.
-    </li>
-  </ul>
-</section>
-
-
+    <!-- Teamverlauf -->
+    <section id="team-history">
+      <h2>📜 Teamverlauf</h2>
+      <ul>
+        <li style="color: green;">
+          ✅ [03.04.2025] <span style="color: #ffffff;">Florian Fazlija</span> ist dem Team als 
+          <b style="color: #ffff00;">Moderator</b> beigetreten.
+        </li>
+        <li style="color: green;">
+          ✅ [24.02.2025] <span style="color: #ffffff;">Etienne Engler</span> ist dem Team als 
+          <b style="color: #00ffff;">Systemadministrator</b> beigetreten.
+        </li>
+      </ul>
+    </section>
   </main>
 </body>
 </html>

@@ -12,8 +12,13 @@
 </url>
 <url>
   <loc>https://codehelvetia.ch/team.html</loc>
-  <lastmod>2025-04-28T17:25:51+00:00</lastmod>
+  <lastmod>2025-09-03T03:00:00+00:00</lastmod>
   <priority>0.80</priority>
+  <image:image>
+    <image:loc>https://codehelvetia.ch/etienneengler.jpg</image:loc> 
+    <image:caption>Etienne, Systemadministrator von CodeHelvetia</image:caption>
+    <image:title>Etienne – Systemadministrator</image:title>
+  </image:image>
 </url>
 <url>
   <loc>https://codehelvetia.ch/impressum.html</loc>
@@ -28,3 +33,4 @@
 
 
 </urlset>
+

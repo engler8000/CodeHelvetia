@@ -133,5 +133,25 @@ a:hover {
   background-color: #ff0000;
 }
 
+.download-button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  line-height: 1.2;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  margin-top: 1rem;
+}
 
-
+.download-button:hover {
+  background-color: #ffffff !important;
+  color: #ff0000 !important;
+  border-color: #ff0000;
+  text-decoration: none;
+  padding: 10px 20px;
+}

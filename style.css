@@ -134,3 +134,12 @@ a:hover {
 .dropdown-content a:hover {
   background-color: #ff0000;
 }
+
+.tos {
+  margin-bottom: 6rem;
+}
+
+.privacy {
+  padding-top: 3rem;
+  border-top: 3px solid #666;
+}

@@ -72,6 +72,11 @@ a {
   border: 1px solid #000;
   padding: 4px;
 }
+.brand-wordmark {
+    width: 150px;
+    height: auto;
+    display: block;
+}
 .brand-word {
   font-size: 17px;
   font-weight: 700;

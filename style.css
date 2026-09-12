@@ -142,6 +142,11 @@ a {
 .mobile-nav {
   display: none;
 }
+
+.mobile-nav[hidden] {
+    display: none !important;
+}
+
 .hero {
   position: relative;
   background: #000;
